@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,600&display=swap');
+/*---------RESET---------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------HEADER---------*/
+header nav a img{
+    width: 50px;
+    height: 50px;
+}
+
+header nav ul li a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav{
+    background-color: #FFD54F;
+}
+
+/*---------MAIN---------*/
+
+.bienvenidos{
+    background-image: url("../img/library.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bienvenidos h2{
+    font-size: 65px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bienvenidos p{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.titulo h2{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo p{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maspopulares h3{
+    margin: 5px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maspopulares p{
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maspopulares .maspopulares-libros{/*Aplico flex al contenendor de las tarjetas de los libros*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.maspopulares div .libro-card{
+    width: 250px;
+    height: 360px;
+    border: 1px black solid;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maspopulares div a{
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    
+}
+
+.maspopulares div img{
+    width: 100%;
+    height: 250px;
+}
+
+.darwin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.darwin div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.darwin img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.orwell{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.orwell div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.orwell img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.naranjalima{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.naranjalima div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.naranjalima img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.moreno{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.moreno div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.moreno img{
+    width: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.viudajueves{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.viudajueves div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.viudajueves img{
+    width: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.violeta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.violeta div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.violeta img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.zhivago{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.zhivago div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.zhivago img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.maya{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.maya div{
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.maya img{
+    margin: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.grid-galeria{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+}
+
+.grid-galeria div img{
+    width: 100%;
+    height: 100%;
+}
+
+/*---------FOOTER---------*/
+
+.piedepagina p{
+    margin: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.piedepagina div a img{
+    width: 64px; 
+    height: 64px;
+}
+
+.piedepagina iframe{
+    width: 560px;
+    height: 315px;
+}
+
+/*---------MEDIA QUERY---------*/
+
+@media screen and (max-width: 950px) {
+    .grid-galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }    
+}
+
+@media screen and (max-width: 760px) {
+    .darwin{
+        flex-direction: column;
+    }
+    .darwin div{
+        width: 100%;
+    }
+    .orwell{
+        flex-direction: column;
+    }
+    .orwell div{
+        width: 100%;
+    }
+    .naranjalima{
+        flex-direction: column;
+    }
+    .naranjalima div{
+        width: 100%;
+    }
+    .moreno{
+        flex-direction: column;
+    }
+    .moreno div{
+        width: 100%;
+    }
+    .viudajueves{
+        flex-direction: column;
+    }
+    .viudajueves div{
+        width: 100%;
+    }
+    .violeta{
+        flex-direction: column;
+    }
+    .violeta div{
+        width: 100%;
+    }
+    .zhivago{
+        flex-direction: column;
+    }
+    .zhivago div{
+        width: 100%;
+    }
+    .maya{
+        flex-direction: column;
+    }
+    .maya div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .maspopulares{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+@media screen and (max-width: 470px) {
+    header{
+        flex-direction: column;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .grid-galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+}
+
+@media screen and (max-width: 330px) {
+    header{
+        flex-direction: column;
+        position: static;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
