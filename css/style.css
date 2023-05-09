@@ -307,49 +307,100 @@ header nav{
         flex-direction: column;
     }
     .darwin div{
-        width: 100%;
+        margin: 5px;
     }
     .orwell{
         flex-direction: column;
     }
     .orwell div{
-        width: 100%;
+        margin: 5px;
     }
     .naranjalima{
         flex-direction: column;
     }
     .naranjalima div{
-        width: 100%;
+        margin: 5px;
     }
     .moreno{
         flex-direction: column;
     }
     .moreno div{
-        width: 100%;
+        margin: 5px;
     }
     .viudajueves{
         flex-direction: column;
     }
     .viudajueves div{
-        width: 100%;
+        margin: 5px;
     }
     .violeta{
         flex-direction: column;
     }
     .violeta div{
-        width: 100%;
+        margin: 5px;
     }
     .zhivago{
         flex-direction: column;
     }
     .zhivago div{
-        width: 100%;
+        margin: 5px;
     }
     .maya{
         flex-direction: column;
     }
     .maya div{
-        width: 100%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .darwin{
+        flex-direction: column;
+    }
+    .darwin div{
+        margin: 5px;
+    }
+    .orwell{
+        flex-direction: column;
+    }
+    .orwell div{
+        margin: 5px;
+    }
+    .naranjalima{
+        flex-direction: column;
+    }
+    .naranjalima div{
+        margin: 5px;
+    }
+    .moreno{
+        flex-direction: column;
+    }
+    .moreno div{
+        margin: 5px;
+    }
+    .viudajueves{
+        flex-direction: column;
+    }
+    .viudajueves div{
+        margin: 5px;
+    }
+    .violeta{
+        flex-direction: column;
+    }
+    .violeta div{
+        margin: 5px;
+    }
+    .zhivago{
+        flex-direction: column;
+    }
+    .zhivago div{
+        margin: 5px;
+    }
+    .maya{
+        flex-direction: column;
+    }
+    .maya div{
+        margin: 5px;
     }
 }
 
@@ -361,12 +412,63 @@ header nav{
 }
 
 @media screen and (max-width: 450px) {
+    .darwin{
+        flex-direction: column;
+    }
+    .darwin div{
+        margin: 5px;
+    }
+    .orwell{
+        flex-direction: column;
+    }
+    .orwell div{
+        margin: 5px;
+    }
+    .naranjalima{
+        flex-direction: column;
+    }
+    .naranjalima div{
+        margin: 5px;
+    }
+    .moreno{
+        flex-direction: column;
+    }
+    .moreno div{
+        margin: 5px;
+    }
+    .viudajueves{
+        flex-direction: column;
+    }
+    .viudajueves div{
+        margin: 5px;
+    }
+    .violeta{
+        flex-direction: column;
+    }
+    .violeta div{
+        margin: 5px;
+    }
+    .zhivago{
+        flex-direction: column;
+    }
+    .zhivago div{
+        margin: 5px;
+    }
+    .maya{
+        flex-direction: column;
+    }
+    .maya div{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
     .grid-galeria{
         grid-template-columns: repeat(2, 1fr);
     }    
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 450px) {
     header{
         flex-direction: column;
         position: static;
@@ -384,9 +486,111 @@ header nav{
 }
 
 @media screen and (max-width: 350px) {
+    .darwin{
+        flex-direction: column;
+    }
+    .darwin div{
+        margin: 5px;
+    }
+    .orwell{
+        flex-direction: column;
+    }
+    .orwell div{
+        margin: 5px;
+    }
+    .naranjalima{
+        flex-direction: column;
+    }
+    .naranjalima div{
+        margin: 5px;
+    }
+    .moreno{
+        flex-direction: column;
+    }
+    .moreno div{
+        margin: 5px;
+    }
+    .viudajueves{
+        flex-direction: column;
+    }
+    .viudajueves div{
+        margin: 5px;
+    }
+    .violeta{
+        flex-direction: column;
+    }
+    .violeta div{
+        margin: 5px;
+    }
+    .zhivago{
+        flex-direction: column;
+    }
+    .zhivago div{
+        margin: 5px;
+    }
+    .maya{
+        flex-direction: column;
+    }
+    .maya div{
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 350px) {
     .grid-galeria{
         grid-template-columns: repeat(1, 1fr);
     }    
+}
+
+@media screen and (max-width: 330px) {
+    .darwin{
+        flex-direction: column;
+    }
+    .darwin div{
+        margin: 5px;
+    }
+    .orwell{
+        flex-direction: column;
+    }
+    .orwell div{
+        margin: 5px;
+    }
+    .naranjalima{
+        flex-direction: column;
+    }
+    .naranjalima div{
+        margin: 5px;
+    }
+    .moreno{
+        flex-direction: column;
+    }
+    .moreno div{
+        margin: 5px;
+    }
+    .viudajueves{
+        flex-direction: column;
+    }
+    .viudajueves div{
+        margin: 5px;
+    }
+    .violeta{
+        flex-direction: column;
+    }
+    .violeta div{
+        margin: 5px;
+    }
+    .zhivago{
+        flex-direction: column;
+    }
+    .zhivago div{
+        margin: 5px;
+    }
+    .maya{
+        flex-direction: column;
+    }
+    .maya div{
+        margin: 5px;
+    }
 }
 
 @media screen and (max-width: 330px) {
