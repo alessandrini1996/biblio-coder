@@ -1,0 +1,254 @@
+.bienvenidos{
+    background-image: url("../img/library.jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FF8C00;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .animate__animated{
+        font-size: nth($font-size, 13);
+        padding: 20px;
+        margin: 10px;
+    }
+    p{
+        margin: 10px;
+        font-size: nth($font-size, 7);
+    }
+}
+
+.titulo{
+    h2{
+        margin: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    p{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+.maspopulares{
+    .maspopulares-libros{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .libro-card{
+            width: 250px;
+            height: 360px;
+            border: 1px black solid;
+            font-family: 'Montserrat', sans-serif;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 100%;
+                height: 250px;
+            }
+            h3{
+                margin: 5px;
+                font-size: nth($font-size, 4);
+                font-family: 'Montserrat', sans-serif;
+            }
+            p{
+                margin: 5px;
+                font-size: nth($font-size, 2);
+                font-family: 'Montserrat', sans-serif;
+            }
+
+        }
+    }
+}
+.darwin{
+    @extend %flex;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.orwell{
+    @include flex (flex, space-evenly, center);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.naranjalima{
+    @extend %flex;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.moreno{
+    @include flex (flex, space-evenly, center);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.viudajueves{
+    @extend %flex;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.violeta{
+    @include flex (flex, space-evenly, center);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.zhivago{
+    @extend %flex;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.maya{
+    @include flex (flex, space-evenly, center);
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    div{
+        width: 500px;
+        text-align: justify;
+        font-family: 'Montserrat', sans-serif;
+    }
+    img{
+        margin: 5px;
+        width: 200px;
+        height: 250px;
+    }
+}
+.grid-galeria{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    .grid-libro{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.nosotros{
+    div{
+        h3{
+            font-size: nth($font-size, 8);
+            padding: 20px;
+            margin: 10px;
+        }
+        p{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+.video{
+    div{
+        p{
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        iframe{
+            width: 560px;
+            height: 315px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+.suscribirse{
+    h1{
+        font-size: nth($font-size, 13);
+        font-family: 'Montserrat', sans-serif;
+    }
+    h2{
+        margin: 10px;
+        font-size: nth($font-size, 7);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .needs-validation{
+        margin: 10px;
+        .col-md-4{
+            .form-label{
+                margin: 10px;
+            }
+            .from-control{
+                margin: 10px;
+            }
+        }
+    }
+}

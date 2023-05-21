@@ -1,0 +1,594 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.darwin, .naranjalima, .viudajueves, .zhivago {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+header nav {
+  background-color: #FFD54F; }
+  header nav div ul li a {
+    font-family: 'Montserrat', sans-serif; }
+  header nav a img {
+    width: 50px;
+    height: 50px; }
+
+.bienvenidos {
+  background-image: url("../img/library.jpg");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FF8C00;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .bienvenidos .animate__animated {
+    font-size: 65px;
+    padding: 20px;
+    margin: 10px; }
+  .bienvenidos p {
+    margin: 10px;
+    font-size: 25px; }
+
+.titulo h2 {
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif; }
+
+.titulo p {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; }
+
+.maspopulares .maspopulares-libros {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .maspopulares .maspopulares-libros .libro-card {
+    width: 250px;
+    height: 360px;
+    border: 1px black solid;
+    font-family: 'Montserrat', sans-serif;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .maspopulares .maspopulares-libros .libro-card img {
+      width: 100%;
+      height: 250px; }
+    .maspopulares .maspopulares-libros .libro-card h3 {
+      margin: 5px;
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif; }
+    .maspopulares .maspopulares-libros .libro-card p {
+      margin: 5px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif; }
+
+.darwin {
+  flex-wrap: wrap; }
+  .darwin div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .darwin img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.orwell {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
+  .orwell div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .orwell img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.naranjalima {
+  flex-wrap: wrap; }
+  .naranjalima div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .naranjalima img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.moreno {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
+  .moreno div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .moreno img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.viudajueves {
+  flex-wrap: wrap; }
+  .viudajueves div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .viudajueves img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.violeta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
+  .violeta div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .violeta img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.zhivago {
+  flex-wrap: wrap; }
+  .zhivago div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .zhivago img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.maya {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap; }
+  .maya div {
+    width: 500px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif; }
+  .maya img {
+    margin: 5px;
+    width: 200px;
+    height: 250px; }
+
+.grid-galeria {
+  width: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 20px; }
+  .grid-galeria .grid-libro img {
+    width: 100%;
+    height: 100%; }
+
+.nosotros div h3 {
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px; }
+
+.nosotros div p {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; }
+
+.video div p {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; }
+
+.video div iframe {
+  width: 560px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.suscribirse h1 {
+  font-size: 65px;
+  font-family: 'Montserrat', sans-serif; }
+
+.suscribirse h2 {
+  margin: 10px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif; }
+
+.suscribirse .needs-validation {
+  margin: 10px; }
+  .suscribirse .needs-validation .col-md-4 .form-label {
+    margin: 10px; }
+  .suscribirse .needs-validation .col-md-4 .from-control {
+    margin: 10px; }
+
+.piedepagina div a img {
+  width: 64px;
+  height: 64px;
+  transition: 1s; }
+  .piedepagina div a img:hover {
+    transform: scale(1.2); }
+
+.piedepagina p {
+  margin: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; }
+
+@media screen and (max-width: 950px) {
+  .grid-galeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; } }
+
+@media screen and (max-width: 760px) {
+  .darwin {
+    flex-direction: column; }
+    .darwin div {
+      margin: 5px; }
+  .orwell {
+    flex-direction: column; }
+    .orwell div {
+      margin: 5px; }
+  .naranjalima {
+    flex-direction: column; }
+    .naranjalima div {
+      margin: 5px; }
+  .moreno {
+    flex-direction: column; }
+    .moreno div {
+      margin: 5px; }
+  .viudajueves {
+    flex-direction: column; }
+    .viudajueves div {
+      margin: 5px; }
+  .violeta {
+    flex-direction: column; }
+    .violeta div {
+      margin: 5px; }
+  .zhivago {
+    flex-direction: column; }
+    .zhivago div {
+      margin: 5px; }
+  .maya {
+    flex-direction: column; }
+    .maya div {
+      margin: 5px; } }
+
+@media screen and (max-width: 650px) {
+  .darwin {
+    flex-direction: column; }
+    .darwin div {
+      margin: 5px; }
+  .orwell {
+    flex-direction: column; }
+    .orwell div {
+      margin: 5px; }
+  .naranjalima {
+    flex-direction: column; }
+    .naranjalima div {
+      margin: 5px; }
+  .moreno {
+    flex-direction: column; }
+    .moreno div {
+      margin: 5px; }
+  .viudajueves {
+    flex-direction: column; }
+    .viudajueves div {
+      margin: 5px; }
+  .violeta {
+    flex-direction: column; }
+    .violeta div {
+      margin: 5px; }
+  .zhivago {
+    flex-direction: column; }
+    .zhivago div {
+      margin: 5px; }
+  .maya {
+    flex-direction: column; }
+    .maya div {
+      margin: 5px; } }
+
+@media screen and (max-width: 650px) {
+  .nosotros {
+    flex-direction: column; }
+    .nosotros div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .nosotros div p {
+      font-size: 16px;
+      margin: 10px; }
+  .video div p {
+    font-size: 16px;
+    margin: 10px; }
+  .video div iframe {
+    width: 460px;
+    height: 215px; } }
+
+@media screen and (max-width: 650px) {
+  .maspopulares {
+    flex-direction: column;
+    padding: 50px; } }
+
+@media screen and (max-width: 450px) {
+  .darwin {
+    flex-direction: column; }
+    .darwin div {
+      margin: 5px;
+      font-size: 35px; }
+  .orwell {
+    flex-direction: column; }
+    .orwell div {
+      margin: 5px;
+      font-size: 35px; }
+  .naranjalima {
+    flex-direction: column; }
+    .naranjalima div {
+      margin: 5px;
+      font-size: 35px; }
+  .moreno {
+    flex-direction: column; }
+    .moreno div {
+      margin: 5px;
+      font-size: 35px; }
+  .viudajueves {
+    flex-direction: column; }
+    .viudajueves div {
+      margin: 5px;
+      font-size: 35px; }
+  .violeta {
+    flex-direction: column; }
+    .violeta div {
+      margin: 5px;
+      font-size: 35px; }
+  .zhivago {
+    flex-direction: column; }
+    .zhivago div {
+      margin: 5px;
+      font-size: 35px; }
+  .maya {
+    flex-direction: column; }
+    .maya div {
+      margin: 5px;
+      font-size: 35px; } }
+
+@media screen and (max-width: 450px) {
+  .suscribirse h1 {
+    font-size: 35px; }
+  .suscribirse h2 {
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif; } }
+
+@media screen and (max-width: 450px) {
+  .nosotros {
+    flex-direction: column; }
+    .nosotros div h3 {
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
+    .nosotros div p {
+      font-size: 15px;
+      margin: 8px; }
+  .video div p {
+    font-size: 15px;
+    margin: 8px; }
+  .video div iframe {
+    width: 260px;
+    height: 200px; } }
+
+@media screen and (max-width: 450px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 450px) {
+  header {
+    flex-direction: column;
+    position: static; } }
+
+@media screen and (max-width: 430px) {
+  header nav ul {
+    flex-direction: column;
+    text-align: center; }
+  header nav ul li {
+    margin: 0; } }
+
+@media screen and (max-width: 430px) {
+  .suscribirse h1 {
+    font-size: 30px; }
+  .suscribirse h2 {
+    margin: 5px;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif; } }
+
+@media screen and (max-width: 430px) {
+  .nosotros {
+    flex-direction: column; }
+    .nosotros div h3 {
+      font-size: 16px;
+      padding: 8px;
+      margin: 6px; }
+    .nosotros div p {
+      font-size: 15px;
+      margin: 8px; }
+  .video div p {
+    font-size: 15px;
+    margin: 8px; }
+  .video div iframe {
+    width: 230px;
+    height: 200px; } }
+
+@media screen and (max-width: 350px) {
+  .darwin {
+    flex-direction: column; }
+    .darwin div {
+      margin: 5px;
+      font-size: 25px; }
+  .orwell {
+    flex-direction: column; }
+    .orwell div {
+      margin: 5px;
+      font-size: 25px; }
+  .naranjalima {
+    flex-direction: column; }
+    .naranjalima div {
+      margin: 5px;
+      font-size: 25px; }
+  .moreno {
+    flex-direction: column; }
+    .moreno div {
+      margin: 5px;
+      font-size: 25px; }
+  .viudajueves {
+    flex-direction: column; }
+    .viudajueves div {
+      margin: 5px;
+      font-size: 25px; }
+  .violeta {
+    flex-direction: column; }
+    .violeta div {
+      margin: 5px;
+      font-size: 25px; }
+  .zhivago {
+    flex-direction: column; }
+    .zhivago div {
+      margin: 5px;
+      font-size: 25px; }
+  .maya {
+    flex-direction: column; }
+    .maya div {
+      margin: 5px;
+      font-size: 25px; } }
+
+@media screen and (max-width: 350px) {
+  .suscribirse h1 {
+    font-size: 25px; }
+  .suscribirse h2 {
+    margin: 5px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif; } }
+
+@media screen and (max-width: 350px) {
+  .nosotros {
+    flex-direction: column; }
+    .nosotros div h3 {
+      font-size: 15px;
+      padding: 6px;
+      margin: 6px; }
+    .nosotros div p {
+      font-size: 10px;
+      margin: 8px; }
+  .video div p {
+    font-size: 10px;
+    margin: 8px; }
+  .video div iframe {
+    width: 230px;
+    height: 150px; } }
+
+@media screen and (max-width: 350px) {
+  .grid-galeria {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (max-width: 330px) {
+  .darwin {
+    flex-direction: column; }
+    .darwin div {
+      margin: 5px;
+      font-size: 18px; }
+  .orwell {
+    flex-direction: column; }
+    .orwell div {
+      margin: 5px;
+      font-size: 18px; }
+  .naranjalima {
+    flex-direction: column; }
+    .naranjalima div {
+      margin: 5px;
+      font-size: 18px; }
+  .moreno {
+    flex-direction: column; }
+    .moreno div {
+      margin: 5px;
+      font-size: 18px; }
+  .viudajueves {
+    flex-direction: column; }
+    .viudajueves div {
+      margin: 5px;
+      font-size: 18px; }
+  .violeta {
+    flex-direction: column; }
+    .violeta div {
+      margin: 5px;
+      font-size: 18px; }
+  .zhivago {
+    flex-direction: column; }
+    .zhivago div {
+      margin: 5px;
+      font-size: 18px; }
+  .maya {
+    flex-direction: column; }
+    .maya div {
+      margin: 5px;
+      font-size: 18px; } }
+
+@media screen and (max-width: 330px) {
+  .suscribirse h1 {
+    font-size: 20px; }
+  .suscribirse h2 {
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; } }
+
+@media screen and (max-width: 330px) {
+  .nosotros {
+    flex-direction: column; }
+    .nosotros div h3 {
+      font-size: 10px;
+      padding: 6px;
+      margin: 6px; }
+    .nosotros div p {
+      font-size: 10px;
+      margin: 5px; }
+  .video div p {
+    font-size: 10px;
+    margin: 5px; }
+  .video div iframe {
+    width: 200px;
+    height: 150px; } }
+
+@media screen and (max-width: 330px) {
+  header {
+    flex-direction: column;
+    position: static; }
+  header nav ul {
+    flex-direction: column;
+    text-align: center; }
+  header nav ul li {
+    margin: 0; } }

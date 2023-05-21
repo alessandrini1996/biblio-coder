@@ -1,0 +1,533 @@
+@media screen and (max-width: 950px) {
+    .grid-galeria{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+    }    
+}
+
+@media screen and (max-width: 760px) {
+    .darwin{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .orwell{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .naranjalima{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .moreno{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .viudajueves{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .violeta{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .zhivago{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .maya{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .darwin{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .orwell{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .naranjalima{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .moreno{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .viudajueves{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .violeta{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .zhivago{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+    .maya{
+        flex-direction: column;
+        div{
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and(max-width: 650px) {
+    .nosotros{
+        flex-direction: column;
+        div{
+            h3{
+                font-size: nth($font-size, 6);
+                padding: 15px;
+                margin: 10px;
+            }
+            p{
+                font-size: nth($font-size, 4);
+                margin: 10px;
+            }
+        }
+    }
+    .video{
+        div{
+            p{
+                font-size: nth($font-size, 4);
+                margin: 10px;
+            }
+            iframe{
+                width: 460px;
+                height: 215px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .maspopulares{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .darwin{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .orwell{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .naranjalima{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .moreno{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .viudajueves{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .violeta{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .zhivago{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+    .maya{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 9);
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .suscribirse{
+        h1{
+            font-size: nth($font-size, 9);
+        }
+        h2{
+            margin: 10px;
+            font-size: nth($font-size, 4);
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+@media screen and(max-width: 450px) {
+    .nosotros{
+        flex-direction: column;
+        div{
+            h3{
+                font-size: nth($font-size, 5);
+                padding: 10px;
+                margin: 8px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 8px;
+            }
+        }
+    }
+    .video{
+        div{
+            p{
+                font-size: nth($font-size, 3);
+                margin: 8px;
+            }
+            iframe{
+                width: 260px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .grid-galeria{
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    header{
+        flex-direction: column;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .suscribirse{
+        h1{
+            font-size: nth($font-size, 8);
+        }
+        h2{
+            margin: 5px;
+            font-size: nth($font-size, 11);
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+@media screen and(max-width: 430px) {
+    .nosotros{
+        flex-direction: column;
+        div{
+            h3{
+                font-size: nth($font-size, 4);
+                padding: 8px;
+                margin: 6px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 8px;
+            }
+        }
+    }
+    .video{
+        div{
+            p{
+                font-size: nth($font-size, 3);
+                margin: 8px;
+            }
+            iframe{
+                width: 230px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .darwin{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .orwell{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .naranjalima{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .moreno{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .viudajueves{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .violeta{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .zhivago{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+    .maya{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 7);
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .suscribirse{
+        h1{
+            font-size: nth($font-size, 7);
+        }
+        h2{
+            margin: 5px;
+            font-size: nth($font-size, 12);
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+@media screen and(max-width: 350px) {
+    .nosotros{
+        flex-direction: column;
+        div{
+            h3{
+                font-size: nth($font-size, 3);
+                padding: 6px;
+                margin: 6px;
+            }
+            p{
+                font-size: nth($font-size, 1);
+                margin: 8px;
+            }
+        }
+    }
+    .video{
+        div{
+            p{
+                font-size: nth($font-size, 1);
+                margin: 8px;
+            }
+            iframe{
+                width: 230px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .grid-galeria{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+}
+
+@media screen and (max-width: 330px) {
+    .darwin{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .orwell{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .naranjalima{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .moreno{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .viudajueves{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .violeta{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .zhivago{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+    .maya{
+        flex-direction: column;
+        div{
+            margin: 5px;
+            font-size: nth($font-size, 5);
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .suscribirse{
+        h1{
+            font-size: nth($font-size, 6);
+        }
+        h2{
+            margin: 5px;
+            font-size: nth($font-size, 2);
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+}
+
+@media screen and(max-width: 330px) {
+    .nosotros{
+        flex-direction: column;
+        div{
+            h3{
+                font-size: nth($font-size, 1);
+                padding: 6px;
+                margin: 6px;
+            }
+            p{
+                font-size: nth($font-size, 1);
+                margin: 5px;
+            }
+        }
+    }
+    .video{
+        div{
+            p{
+                font-size: nth($font-size, 1);
+                margin: 5px;
+            }
+            iframe{
+                width: 200px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 330px) {
+    header{
+        flex-direction: column;
+        position: static;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    header nav ul li{
+        margin: 0;
+    }
+}

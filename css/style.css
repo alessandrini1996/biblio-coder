@@ -276,6 +276,28 @@ header nav{
     height: 100%;
 }
 
+.nosotros h3{
+    font-size: 55px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.nosotros p{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.video p{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 /*---------FOOTER---------*/
 
 .piedepagina p{
