@@ -61,48 +61,56 @@
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .orwell{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .naranjalima{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .moreno{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .viudajueves{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .violeta{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .zhivago{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
     .maya{
         flex-direction: column;
         div{
             margin: 5px;
+            font-family: 'Montserrat', sans-serif;
         }
     }
 }
@@ -147,57 +155,113 @@
     .darwin{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .orwell{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .naranjalima{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .moreno{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .viudajueves{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .violeta{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                margin: 5px;
+                font-size: nth($font-size, 2);
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .zhivago{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                margin: 5px;
+                font-size: nth($font-size, 2);
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .maya{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 9);
+            h3{
+                font-size: nth($font-size, 6);
+                margin: 5px;
+            }
+            p{
+                margin: 5px;
+                font-size: nth($font-size, 2);
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
 }
@@ -270,11 +334,11 @@
 @media screen and (max-width: 430px) {
     .suscribirse{
         h1{
-            font-size: nth($font-size, 8);
+            font-size: nth($font-size, 5);
         }
         h2{
             margin: 5px;
-            font-size: nth($font-size, 11);
+            font-size: nth($font-size, 3);
             font-family: 'Montserrat', sans-serif;
         }
     }
@@ -313,57 +377,113 @@
     .darwin{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .orwell{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .naranjalima{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .moreno{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .viudajueves{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .violeta{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .zhivago{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .maya{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 7);
+            h3{
+                font-size: nth($font-size, 5);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 3);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
 }
@@ -420,57 +540,113 @@
     .darwin{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .orwell{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .naranjalima{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .moreno{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .viudajueves{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .violeta{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .zhivago{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
     .maya{
         flex-direction: column;
         div{
-            margin: 5px;
-            font-size: nth($font-size, 5);
+            h3{
+                font-size: nth($font-size, 4);
+                margin: 5px;
+            }
+            p{
+                font-size: nth($font-size, 2);
+                margin: 5px;
+                font-family: 'Montserrat', sans-serif;
+            }
         }
     }
 }
