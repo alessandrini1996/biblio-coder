@@ -284,44 +284,76 @@ header nav {
 @media screen and (max-width: 650px) {
   .darwin {
     flex-direction: column; }
-    .darwin div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .darwin div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .darwin div p {
+      font-size: 16px;
+      margin: 10px; }
   .orwell {
     flex-direction: column; }
-    .orwell div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .orwell div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .orwell div p {
+      font-size: 16px;
+      margin: 10px; }
   .naranjalima {
     flex-direction: column; }
-    .naranjalima div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .naranjalima div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .naranjalima div p {
+      font-size: 16px;
+      margin: 10px; }
   .moreno {
     flex-direction: column; }
-    .moreno div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .moreno div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .moreno div p {
+      font-size: 16px;
+      margin: 10px; }
   .viudajueves {
     flex-direction: column; }
-    .viudajueves div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .viudajueves div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .viudajueves div p {
+      font-size: 16px;
+      margin: 10px; }
   .violeta {
     flex-direction: column; }
-    .violeta div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .violeta div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .violeta div p {
+      font-size: 16px;
+      margin: 10px; }
   .zhivago {
     flex-direction: column; }
-    .zhivago div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+    .zhivago div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .zhivago div p {
+      font-size: 16px;
+      margin: 10px; }
   .maya {
     flex-direction: column; }
-    .maya div {
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; } }
+    .maya div h3 {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px; }
+    .maya div p {
+      font-size: 16px;
+      margin: 10px; } }
 
 @media screen and (max-width: 650px) {
   .nosotros {
@@ -349,75 +381,83 @@ header nav {
   .darwin {
     flex-direction: column; }
     .darwin div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .darwin div p {
-      font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .orwell {
     flex-direction: column; }
     .orwell div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .orwell div p {
-      font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .naranjalima {
     flex-direction: column; }
     .naranjalima div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .naranjalima div p {
-      font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .moreno {
     flex-direction: column; }
     .moreno div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .moreno div p {
-      font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .viudajueves {
     flex-direction: column; }
     .viudajueves div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .viudajueves div p {
-      font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .violeta {
     flex-direction: column; }
     .violeta div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .violeta div p {
-      margin: 5px;
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .zhivago {
     flex-direction: column; }
     .zhivago div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .zhivago div p {
-      margin: 5px;
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif; }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; }
   .maya {
     flex-direction: column; }
     .maya div h3 {
-      font-size: 20px;
-      margin: 5px; }
+      font-size: 18px;
+      padding: 10px;
+      margin: 8px; }
     .maya div p {
-      margin: 5px;
-      font-size: 14px;
-      font-family: 'Montserrat', sans-serif; } }
+      font-size: 15px;
+      width: 400px;
+      margin: 8px; } }
 
 @media screen and (max-width: 450px) {
   .suscribirse h1 {
@@ -489,75 +529,107 @@ header nav {
   .darwin {
     flex-direction: column; }
     .darwin div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .darwin div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .darwin div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .darwin img {
+      width: 150px;
+      height: 150px; }
   .orwell {
     flex-direction: column; }
     .orwell div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .orwell div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .orwell div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .orwell img {
+      width: 150px;
+      height: 150px; }
   .naranjalima {
     flex-direction: column; }
     .naranjalima div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .naranjalima div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .naranjalima div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .naranjalima img {
+      width: 150px;
+      height: 150px; }
   .moreno {
     flex-direction: column; }
     .moreno div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .moreno div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .moreno div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .moreno img {
+      width: 150px;
+      height: 150px; }
   .viudajueves {
     flex-direction: column; }
     .viudajueves div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .viudajueves div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .viudajueves div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .viudajueves img {
+      width: 150px;
+      height: 150px; }
   .violeta {
     flex-direction: column; }
     .violeta div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .violeta div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .violeta div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .violeta img {
+      width: 150px;
+      height: 150px; }
   .zhivago {
     flex-direction: column; }
     .zhivago div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .zhivago div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      padding: 6px;
+      margin: 6px; }
+    .zhivago div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .zhivago img {
+      width: 150px;
+      height: 150px; }
   .maya {
     flex-direction: column; }
     .maya div h3 {
-      font-size: 18px;
-      margin: 5px; }
-    .maya div p {
       font-size: 15px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; } }
+      padding: 6px;
+      margin: 6px; }
+    .maya div p {
+      font-size: 10px;
+      width: 300px;
+      margin: 8px; }
+    .maya img {
+      width: 150px;
+      height: 150px; } }
 
 @media screen and (max-width: 350px) {
   .suscribirse h1 {
@@ -592,75 +664,106 @@ header nav {
   .darwin {
     flex-direction: column; }
     .darwin div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      margin: 6px; }
     .darwin div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .darwin img {
+      width: 150px;
+      height: 150px; }
   .orwell {
     flex-direction: column; }
     .orwell div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .orwell div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .orwell img {
+      width: 150px;
+      height: 150px; }
   .naranjalima {
     flex-direction: column; }
     .naranjalima div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .naranjalima div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .naranjalima img {
+      width: 150px;
+      height: 150px; }
   .moreno {
     flex-direction: column; }
     .moreno div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .moreno div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .moreno img {
+      width: 150px;
+      height: 150px; }
   .viudajueves {
     flex-direction: column; }
     .viudajueves div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .viudajueves div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .viudajueves img {
+      width: 150px;
+      height: 150px; }
   .violeta {
     flex-direction: column; }
     .violeta div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .violeta div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .violeta img {
+      width: 150px;
+      height: 150px; }
   .zhivago {
     flex-direction: column; }
     .zhivago div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .zhivago div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; }
+      width: 300px;
+      margin: 5px; }
+    .zhivago img {
+      width: 150px;
+      height: 150px; }
   .maya {
     flex-direction: column; }
     .maya div h3 {
-      font-size: 16px;
-      margin: 5px; }
+      font-size: 14px;
+      padding: 6px;
+      margin: 6px; }
     .maya div p {
       font-size: 14px;
-      margin: 5px;
-      font-family: 'Montserrat', sans-serif; } }
+      width: 300px;
+      margin: 5px; }
+    .maya img {
+      width: 150px;
+      height: 150px; } }
 
 @media screen and (max-width: 330px) {
   .suscribirse h1 {
